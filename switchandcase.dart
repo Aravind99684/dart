@@ -2,9 +2,9 @@ void main(List<String> args) {
   
   // switch case statements
 
-  String grade = 'A';
+  String grade = 'A'; // can only pass int and string
 
-  switch(grade) {
+  switch(grade) {     // boolean and double values are not allowed
 
     case 'A' :
         print("Excellent grade of A");
